@@ -3,7 +3,7 @@ import { useState } from 'react'
 import styles from 'src/app/page.module.css'
 
 function HabitInputBox() {
-  const pageTitle = "Tabit Hracker"
+  const pageTitle = "Habit Tracker"
   const [habit, setHabit] = useState('')
   const [listHabits, setListHabits] = useState<string[]>([])
 
